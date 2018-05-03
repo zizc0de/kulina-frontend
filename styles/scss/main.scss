@@ -1,12 +1,12 @@
-@import
-	"bases.scss",
-	"components.scss";
-
 html,
 body {
 	color: #373d3f;
 	font-family: "roboto-regular", sans-serif;
 }
+
+@import
+"bases.scss",
+"components.scss";
 
 .home-section {
 	align-items: center;

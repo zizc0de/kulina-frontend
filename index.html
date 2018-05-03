@@ -28,10 +28,10 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-home navbar-expand-md fixed-top">
+	<nav id="nav" class="navbar navbar-transparent navbar-expand-md fixed-top">
 		<div class="container-fluid">
 			<a href="#" class="navbar-brand">
-				<img src="assets/images/logo/kulina-logo-white.svg">
+				<img id="nav-logo" src="assets/images/logo/kulina-logo-white.svg">
 			</a>
 			<div class="collapse navbar-collapse">
 				<ul class="navbar-nav ml-auto">
@@ -307,3 +307,19 @@
 
 </body>
 </html>
+
+<script type="text/javascript">
+	window.onscroll = () => {
+		let nav = document.getElementById('nav');
+		let logo = document.getElementById('nav-logo');
+		if ( window.pageYOffset > 85 ) {
+			nav.classList.add("navbar-white");
+			nav.classList.remove("navbar-transparent");
+			logo.src = "assets/images/logo/kulina-logo-red.png";
+		} else {
+			nav.classList.add("navbar-transparent");
+			nav.classList.remove("navbar-white");
+			logo.src = "assets/images/logo/kulina-logo-white.svg";
+		}
+	};
+</script>

@@ -1,3 +1,8 @@
+html,
+body {
+  color: #373d3f;
+  font-family: "roboto-regular", sans-serif; }
+
 .bg-white {
   background: #FFFFFF; }
 
@@ -115,17 +120,31 @@ ul.box-oppurtunities__list {
   .btn {
     line-height: normal !important; } }
 
-.navbar-home {
+.navbar {
   min-height: 85px; }
-  .navbar-home .navbar-brand img {
+  .navbar .navbar-brand img {
     height: 35px; }
-  .navbar-home li a {
+  .navbar li a {
     color: #FFF;
-    opacity: 0.8; }
-  .navbar-home li.active a {
+    font-family: "roboto-medium";
+    opacity: 0.7;
+    transition: all 0.2s; }
+  .navbar li:hover a, .navbar li.active a {
     opacity: 1; }
-  .navbar-home li:not(:last-child) {
-    padding-right: 10px; }
+  .navbar li:not(:last-child) {
+    padding-right: 15px; }
+
+.navbar-transparent li a {
+  color: #FFF; }
+
+.navbar-white {
+  background-color: #FFF;
+  box-shadow: 0 0 10px 0 rgba(43, 43, 43, 0.24); }
+  .navbar-white li a {
+    color: #373D3F;
+    font-family: "roboto-medium"; }
+  .navbar-white li:hover a, .navbar-white li.active a {
+    color: #F9423A; }
 
 footer {
   background-color: #FFFFFF;
@@ -155,11 +174,6 @@ footer {
         padding-right: 8px; }
       footer ul.socmed-list li img {
         height: 22px; }
-
-html,
-body {
-  color: #373d3f;
-  font-family: "roboto-regular", sans-serif; }
 
 .home-section {
   align-items: center;

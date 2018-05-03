@@ -1,4 +1,4 @@
-.navbar-home {
+.navbar {
 	min-height: 85px;
 	.navbar-brand {
 		img {
@@ -8,15 +8,43 @@
 	li {
 		a {
 			color: #FFF;
-			opacity: 0.8;
+			font-family: "roboto-medium";
+			opacity: 0.7;
+			transition: all 0.2s;
 		}
+		&:hover,
 		&.active {
 			a {
 				opacity: 1;
 			}
 		}
 		&:not(:last-child){
-			padding-right: 10px;
+			padding-right: 15px;
+		}
+	}
+}
+
+.navbar-transparent {
+	li {
+		a {
+			color: #FFF;
+		}
+	}
+}
+
+.navbar-white {
+	background-color: #FFF;
+	box-shadow: 0 0 10px 0 rgba(43,43,43,.24);
+	li {
+		a {
+			color: $darkGrey;
+			font-family: "roboto-medium";
+		}
+		&:hover,
+		&.active {
+			a {
+				color: $tomato;
+			}
 		}
 	}
 }
