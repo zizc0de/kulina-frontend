@@ -2,6 +2,7 @@ $colours:
 "white" #FFFFFF,
 "grey" $grey,
 "light-grey" $lightGrey,
+"tomato" $tomato,
 "dark-grey" $darkGrey;
 
 @each $i in $colours{

@@ -25,6 +25,12 @@
 	<link rel="stylesheet" type="text/css" href="library/material-icons/material-icons.css">
 	<link rel="stylesheet" type="text/css" href="styles/css/main.css">
 
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/navbar-scroll.js"></script>
+
+	<script src="library/bootstrap/dist/js/popper.min.js"></script>
+	<script src="library/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -33,7 +39,10 @@
 			<a href="#" class="navbar-brand">
 				<img id="nav-logo" src="assets/images/logo/kulina-logo-white.svg">
 			</a>
-			<div class="collapse navbar-collapse">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+				<i id="toggler" class="material-icons text-white">dehaze</i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar-content">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a href="#" class="nav-link">About Us</a>
@@ -307,19 +316,3 @@
 
 </body>
 </html>
-
-<script type="text/javascript">
-	window.onscroll = () => {
-		let nav = document.getElementById('nav');
-		let logo = document.getElementById('nav-logo');
-		if ( window.pageYOffset > 85 ) {
-			nav.classList.add("navbar-white");
-			nav.classList.remove("navbar-transparent");
-			logo.src = "assets/images/logo/kulina-logo-red.png";
-		} else {
-			nav.classList.add("navbar-transparent");
-			nav.classList.remove("navbar-white");
-			logo.src = "assets/images/logo/kulina-logo-white.svg";
-		}
-	};
-</script>
