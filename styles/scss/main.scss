@@ -49,4 +49,10 @@ section {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
+	.home-section {
+		background: -webkit-linear-gradient(to top, rgba(255, 143, 0, 0.58), rgba(226, 11, 1, 0.71)), url('../../assets/images/background/working-office.jpg');
+		background: linear-gradient(to top, rgba(255, 143, 0, 0.58), rgba(226, 11, 1, 0.71)), url('../../assets/images/background/working-office.jpg');
+		background-size: cover;
+		background-position: center;
+	}
 }

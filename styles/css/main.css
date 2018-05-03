@@ -30,7 +30,7 @@ body {
 .bg-dark-grey {
   background: #373D3F; }
 
-.color-dark-grey, .box-oppurtunities__title {
+.color-dark-grey, .box-opportunities__title {
   color: #373D3F; }
 
 .bg-gradient-grey {
@@ -63,7 +63,7 @@ body {
   font-weight: normal;
   font-style: normal; }
 
-.text-bold, .box-oppurtunities__title {
+.text-bold, .box-opportunities__title {
   font-family: "roboto-bold"; }
 
 .text-light {
@@ -88,22 +88,22 @@ body {
 .box-shadow {
   box-shadow: 0 0 24px 0 rgba(43, 43, 43, 0.24); }
 
-.box-oppurtunities {
+.box-opportunities {
   display: flex;
   width: 100%; }
 
-.box-oppurtunities__title {
+.box-opportunities__title {
   font-size: 18px;
   margin-bottom: 0; }
 
-ul.box-oppurtunities__list {
+ul.box-opportunities__list {
   display: flex;
   font-size: 14px;
   padding-left: 0;
   margin-bottom: 0; }
-  ul.box-oppurtunities__list li:first-child {
+  ul.box-opportunities__list li:first-child {
     list-style: none; }
-  ul.box-oppurtunities__list li:not(:last-child) {
+  ul.box-opportunities__list li:not(:last-child) {
     padding-right: 25px; }
 
 @media (max-width: 767px) {
@@ -225,4 +225,9 @@ section {
 @media (max-width: 767px) {
   section {
     padding-top: 40px;
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+  .home-section {
+    background: -webkit-linear-gradient(to top, rgba(255, 143, 0, 0.58), rgba(226, 11, 1, 0.71)), url("../../assets/images/background/working-office.jpg");
+    background: linear-gradient(to top, rgba(255, 143, 0, 0.58), rgba(226, 11, 1, 0.71)), url("../../assets/images/background/working-office.jpg");
+    background-size: cover;
+    background-position: center; } }

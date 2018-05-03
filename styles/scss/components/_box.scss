@@ -10,19 +10,19 @@
 	box-shadow: 0 0 24px 0 rgba(43,43,43,.24);
 }
 
-.box-oppurtunities {
+.box-opportunities {
 	display: flex;
 	width: 100%;
 }
 
-.box-oppurtunities__title {
+.box-opportunities__title {
 	font-size: 18px;
 	@extend .text-bold,
 	.color-dark-grey;
 	margin-bottom: 0;
 }
 
-ul.box-oppurtunities__list {
+ul.box-opportunities__list {
 	display: flex;
 	font-size: 14px;
 	padding-left: 0;
