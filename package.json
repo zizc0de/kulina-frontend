@@ -1,0 +1,15 @@
+{
+  "name": "kulina-frontend",
+  "version": "1.0.0",
+  "description": "Preliminary Test - Frontend",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch styles/scss -o styles/css"
+  },
+  "author": "Muhammad Abdul Aziz <zizcode.exporadev@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
