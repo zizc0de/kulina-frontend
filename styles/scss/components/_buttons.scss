@@ -1,0 +1,21 @@
+.btn {
+	min-width: 130px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.btn-base {
+	background-color: #FD7314;
+	color: #FFFFFF;
+	&:hover,
+	&:focus {
+		background-color: #DD6716;
+		color: #FFFFFF;
+	}
+}
+
+@media (max-width: $breakpoint-mobile) {
+	.btn {
+		line-height: normal !important;
+	}
+}

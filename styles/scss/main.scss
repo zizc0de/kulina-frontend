@@ -4,7 +4,8 @@
 
 html,
 body {
-	font-family: "roboto-regular"
+	color: #373d3f;
+	font-family: "roboto-regular", sans-serif;
 }
 
 .home-section {
@@ -24,6 +25,24 @@ body {
 	}
 }
 
+.vertical-center {
+	align-items: center;
+	display: flex;
+}
+
+.material-icons {
+	vertical-align: middle;
+}
+
 section {
 	min-height: 250px;
+	padding-top: 85px;
+	padding-bottom: 85px;
+}
+
+@media (max-width: $breakpoint-mobile) {
+	section {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
 }

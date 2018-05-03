@@ -1,3 +1,12 @@
+.box {
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  min-height: 85px; }
+
+.box-shadow {
+  box-shadow: 0 0 24px 0 rgba(43, 43, 43, 0.24);
+  padding: 15px 20px; }
+
 .navbar-home {
   min-height: 85px; }
   .navbar-home .navbar-brand img {

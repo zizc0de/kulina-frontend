@@ -1,3 +1,32 @@
+.bg-white {
+  background: #FFFFFF; }
+
+.color-white {
+  color: #FFFFFF; }
+
+.bg-grey {
+  background: #7B878A; }
+
+.color-grey {
+  color: #7B878A; }
+
+.bg-light-grey {
+  background: #FCFCFD; }
+
+.color-light-grey {
+  color: #FCFCFD; }
+
+.bg-dark-grey {
+  background: #373D3F; }
+
+.color-dark-grey {
+  color: #373D3F; }
+
+.bg-gradient-grey {
+  background: #D3CCE3;
+  background: -webkit-linear-gradient(to top, #FFFFFF, #FCFCFD);
+  background: linear-gradient(to top, #FFFFFF, #FCFCFD); }
+
 /*============== Roboto =================*/
 @font-face {
   font-family: 'roboto-bold';
@@ -34,3 +63,6 @@
 
 .text-regular {
   font-family: "roboto-regular"; }
+
+.font-14 {
+  font-size: 14px; }
