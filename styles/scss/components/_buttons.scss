@@ -1,7 +1,9 @@
 .btn {
-	min-width: 130px;
 	font-size: 14px;
 	line-height: 30px;
+	&.btn-md {
+		min-width: 130px;
+	}
 }
 
 .btn-base {
@@ -11,6 +13,21 @@
 	&:focus {
 		background-color: #DD6716;
 		color: #FFFFFF;
+	}
+}
+
+.btn-scroll {
+	align-items: center;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	color: $orange;
+	display: flex;
+	height: 45px;
+	justify-content: center;
+	width: 45px;
+	&:hover,
+	&:focus {
+		color: $orange;
 	}
 }
 

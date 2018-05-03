@@ -111,9 +111,10 @@ ul.box-oppurtunities__list {
     padding: 15px; } }
 
 .btn {
-  min-width: 130px;
   font-size: 14px;
   line-height: 30px; }
+  .btn.btn-md {
+    min-width: 130px; }
 
 .btn-base {
   background-color: #FD7314;
@@ -121,6 +122,18 @@ ul.box-oppurtunities__list {
   .btn-base:hover, .btn-base:focus {
     background-color: #DD6716;
     color: #FFFFFF; }
+
+.btn-scroll {
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  color: #FD7314;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  width: 45px; }
+  .btn-scroll:hover, .btn-scroll:focus {
+    color: #FD7314; }
 
 @media (max-width: 320px) {
   .btn {
@@ -194,6 +207,9 @@ footer {
     color: #FFFFFF;
     font-size: 35px;
     text-align: center; }
+  .home-section .home-section__scroll {
+    position: absolute;
+    bottom: 20vh; }
 
 .vertical-center {
   align-items: center;
