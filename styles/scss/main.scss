@@ -1,7 +1,29 @@
 @import
-	"bases.scss";
+	"bases.scss",
+	"components.scss";
 
 html,
 body {
 	font-family: "roboto-regular"
+}
+
+.home-section {
+	align-items: center;
+	background: #FF512F;
+	background: -webkit-linear-gradient(265deg, rgba(253, 151, 20, 0.7), rgba(249, 66, 58, 0.7)), url('../../assets/images/background/working-office.jpg');
+	background: linear-gradient(265deg, rgba(253, 151, 20, 0.7), rgba(249, 66, 58, 0.7)), url('../../assets/images/background/working-office.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	min-height: 85vh;
+	h1 {
+		@extend .text-medium;
+		color: #FFFFFF;
+		font-size: 35px;
+		text-align: center;
+	}
+}
+
+section {
+	min-height: 250px;
 }

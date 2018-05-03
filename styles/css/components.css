@@ -1,0 +1,11 @@
+.navbar-home {
+  min-height: 85px; }
+  .navbar-home .navbar-brand img {
+    height: 40px; }
+  .navbar-home li a {
+    color: #FFF;
+    opacity: 0.8; }
+  .navbar-home li.active a {
+    opacity: 1; }
+  .navbar-home li:not(:last-child) {
+    padding-right: 10px; }

@@ -1,3 +1,15 @@
+.bg-white {
+  background: #FFFFFF; }
+
+.color-white {
+  color: #FFFFFF; }
+
+.bg-yellow {
+  background: #F6FF00; }
+
+.color-yellow {
+  color: #F6FF00; }
+
 /*============== Roboto =================*/
 @font-face {
   font-family: 'roboto-bold';
@@ -29,12 +41,41 @@
 .text-light {
   font-family: "roboto-light"; }
 
-.text-medium {
+.text-medium, .home-section h1 {
   font-family: "roboto-medium"; }
 
 .text-regular {
   font-family: "roboto-regular"; }
 
+.navbar-home {
+  min-height: 85px; }
+  .navbar-home .navbar-brand img {
+    height: 40px; }
+  .navbar-home li a {
+    color: #FFF;
+    opacity: 0.8; }
+  .navbar-home li.active a {
+    opacity: 1; }
+  .navbar-home li:not(:last-child) {
+    padding-right: 10px; }
+
 html,
 body {
   font-family: "roboto-regular"; }
+
+.home-section {
+  align-items: center;
+  background: #FF512F;
+  background: -webkit-linear-gradient(265deg, rgba(253, 151, 20, 0.7), rgba(249, 66, 58, 0.7)), url("../../assets/images/background/working-office.jpg");
+  background: linear-gradient(265deg, rgba(253, 151, 20, 0.7), rgba(249, 66, 58, 0.7)), url("../../assets/images/background/working-office.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 85vh; }
+  .home-section h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    text-align: center; }
+
+section {
+  min-height: 250px; }
