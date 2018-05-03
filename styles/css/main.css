@@ -127,6 +127,35 @@ ul.box-oppurtunities__list {
   .navbar-home li:not(:last-child) {
     padding-right: 10px; }
 
+footer {
+  background-color: #FFFFFF;
+  min-height: 100px;
+  padding-top: 10px;
+  padding-bottom: 50px; }
+  footer hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-bottom: 25px;
+    padding: 0; }
+  footer span {
+    font-size: 14px;
+    color: #7B878A; }
+  footer i {
+    font-size: 18px !important;
+    color: #F9423A; }
+  footer ul.socmed-list {
+    display: inline-block;
+    list-style: none;
+    padding-left: 15px; }
+    footer ul.socmed-list li {
+      display: inline-block; }
+      footer ul.socmed-list li:not(:last-child) {
+        padding-right: 8px; }
+      footer ul.socmed-list li img {
+        height: 22px; }
+
 html,
 body {
   color: #373d3f;

@@ -1,0 +1,36 @@
+footer {
+	background-color: #FFFFFF;
+	min-height: 100px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	hr {
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 1px solid #eee;
+		margin-bottom: 25px;
+		padding: 0; 
+	}
+	span {
+		font-size: 14px;
+		color: $grey;
+	}
+	i {
+		font-size: 18px !important;
+		color: $tomato;
+	}
+	ul.socmed-list {
+		display: inline-block;
+		list-style: none;
+		padding-left: 15px;
+		li {
+			display: inline-block;
+			&:not(:last-child) {
+				padding-right: 8px;
+			}
+			img {
+				height: 22px;
+			}
+		}
+	}
+}
